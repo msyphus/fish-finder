@@ -1,7 +1,7 @@
 import React from 'react';
 import FishCard from "./components/FishCard";
 import Wrapper from "./components/Wrapper";
-import Banner from "./components/Banner";
+import Scores from "./components/Scores";
 import fish from "./fish.json";
 import './App.css';
 
@@ -14,7 +14,7 @@ class App extends React.Component {
     return (
       <Wrapper>
         <h1 className="title">Fish Finder</h1>
-        <Banner></Banner>
+        <Scores></Scores>
         {this.state.fish.map((fish, index) => {
           return <FishCard 
           key={index}
