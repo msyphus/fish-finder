@@ -1,0 +1,14 @@
+.row {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+.currScore, .hiScore {
+    display: inline-block
+}
+
+.score {
+    font-family: 'Modak', cursive;
+    font-size: 4vh;
+}

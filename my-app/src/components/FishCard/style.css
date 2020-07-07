@@ -2,6 +2,7 @@
     display: inline-block;
     width: 225px;
     height: 125px;
+    cursor: pointer;
 }
 
 .img-container, img {
