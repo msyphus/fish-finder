@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
+import FishCard from "./components/FishCard";
+import Wrapper from "./components/Wrapper";
+import fish from "./fish.json";
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  state = {
+    fish
+  }
+
+  render() {
+    return (
+      <Wrapper>
+        <h1 className="title">Fish Finder</h1>
+        {this.state.fish.map(fish => {
+          return <FishCard 
+          species={fish.species}
+        image={fish.image} />})}
+      </Wrapper>
+    );
+  };
 }
 
 export default App;
