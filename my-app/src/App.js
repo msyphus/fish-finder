@@ -19,9 +19,13 @@ class App extends React.Component {
     this.setState({ currCount: 0 });
   };
 
-  clicker = () => {
-    console.log(this);
-    this.increaseScore();
+  clicker = event => {
+    if(event.clicked === false) {
+      this.increaseScore();
+      //change the fish.clicked to true
+    } else {
+      this.resetScore();
+    }
   };
 
   render() {
@@ -39,8 +43,10 @@ class App extends React.Component {
         {this.state.fish.map((fish, index) => {
           return <FishCard 
           key={index}
+          id={fish.id}
           species={fish.species}
           image={fish.image} 
+          clicked={fish.clicked}
           onClick={this.clicker}
           />})}
       </Wrapper>

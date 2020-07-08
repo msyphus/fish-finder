@@ -1,80 +1,96 @@
 [
     {
+        "id": 1,
         "species": "Black Rockfish",
         "image": "https://www.fishbase.se/images/species/Semel_u9.jpg",
         "clicked": false
     },
     {
+        "id": 2,
         "species": "Blue Rockfish",
         "image": "https://www.fishbase.se/images/species/Semys_u3.jpg",
         "clicked": false
     },
     {
+        "id": 3,
         "species": "Olive Rockfish",
         "image": "https://www.fishbase.se/images/species/Seser_u0.jpg",
         "clicked": false
     },
     {
+        "id": 4,
         "species": "Yellowtail Rockfish",
         "image": "https://www.fishbase.se/images/species/Sefla_u1.jpg",
         "clicked": false
     },
     {
+        "id": 5,
         "species": "Canary Rockfish",
         "image": "https://www.fishbase.se/images/species/Sepin_u2.jpg",
         "clicked": false
     },
     {
+        "id": 6,
         "species": "Vermillion Rockfish",
         "image": "https://www.fishbase.se/images/species/Semin_u0.jpg",
         "clicked": false
     },
     {
+        "id": 7,
         "species": "Copper Rockfish",
         "image": "https://www.fishbase.se/images/species/Secau_u5.jpg",
         "clicked": false
     },
     {
+        "id": 8,
         "species": "Tiger Rockfish",
         "image": "https://www.fishbase.se/images/species/senig_u4.jpg",
         "clicked": false
     },
     {
+        "id": 9,
         "species": "Flag Rockfish",
         "image": "https://www.fishbase.se/images/species/Serub_u1.jpg",
         "clicked": false
     },
     {
+        "id": 10,
         "species": "Gopher Rockfish",
         "image": "https://www.fishbase.se/images/species/Secar_u0.jpg",
         "clicked": false
     },
     {
+        "id": 11,
         "species": "China Rockfish",
         "image": "https://www.fishbase.se/images/species/Seneb_u0.jpg",
         "clicked": false
     },
     {
+        "id": 12,
         "species": "Black-and-Yellow Rockfish",
         "image": "https://www.fishbase.se/images/species/Sechr_u0.jpg",
         "clicked": false
     },
     {
+        "id": 13,
         "species": "Yelloweye Rockfish",
         "image": "https://www.fishbase.se/images/species/Serub_u0.jpg",
         "clicked": false
     },
     {
+        "id": 14,
         "species": "Quillback Rockfish",
         "image": "https://www.fishbase.se/images/species/Semal_u4.jpg",
         "clicked": false
     },
     {
+        "id": 15,
         "species": "Widow Rockfish",
         "image": "https://www.fishbase.se/images/species/Seent_u0.jpg",
         "clicked": false
     },
     {
+        "id": 16,
         "species": "Kelp Rockfish",
         "image": "http://www.fishbase.se/tools/UploadPhoto/uploads/kelprockfish.jpg",
         "clicked": false
