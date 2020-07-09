@@ -19,10 +19,15 @@ class App extends React.Component {
     this.setState({ currCount: 0 });
   };
 
-  clicker = event => {
-    if(event.clicked === false) {
+  // randomizeCards = () => {
+
+  // }
+
+  clicker = id => {
+    const selected = this.state.fish.filter(fsh => fsh.id === id);
+    if(selected[0].clicked === false) {
       this.increaseScore();
-      //change the fish.clicked to true
+      selected[0].clicked = true;
     } else {
       this.resetScore();
     }
@@ -47,7 +52,7 @@ class App extends React.Component {
           species={fish.species}
           image={fish.image} 
           clicked={fish.clicked}
-          onClick={this.clicker}
+          handleOnClick={this.clicker}
           />})}
       </Wrapper>
     );
