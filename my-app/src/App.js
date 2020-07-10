@@ -10,7 +10,7 @@ class App extends React.Component {
     fish,
     currCount: 0,
     hiCount: 0,
-    title: ""
+    title: "Fish Finder"
   };
 
   increaseScore = () => {
@@ -54,7 +54,7 @@ class App extends React.Component {
   render() {
     return (
       <Wrapper>
-        <Title>{this.state.title}</Title>
+        <Title title={this.state.title}/>
         <div className="row">
           <div className="col-sm-6 mx-3 currScore">
             <h4 className="score">Current Score: {this.state.currCount}</h4>
