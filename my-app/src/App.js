@@ -1,4 +1,5 @@
 import React from 'react';
+import Title from "./components/Title";
 import FishCard from "./components/FishCard";
 import Wrapper from "./components/Wrapper";
 import fish from "./fish.json";
@@ -8,20 +9,33 @@ class App extends React.Component {
   state = {
     fish,
     currCount: 0,
-    hiCount: 0
+    hiCount: 0,
+    title: ""
   };
 
   increaseScore = () => {
-    this.setState({ currCount: this.state.currCount + 1 });
+    if(this.state.currCount < 3) {
+      this.setState({ currCount: this.state.currCount + 1 })
+    } else {
+      this.endGame();
+    }
   };
 
   resetScore = () => {
+    if(this.state.currCount > this.state.hiCount) {
+      this.setState({ hiCount: this.state.currCount })
+    };
     this.setState({ currCount: 0 });
   };
 
-  // randomizeCards = () => {
+  randomizeCards = () => {
+    this.state.fish.sort(() => Math.random() - 0.5);
+  }
 
-  // }
+  endGame = () => {
+    this.setState({ title: "Fish Catcher!"});
+    this.setState({ hiCount: this.state.currCount });
+  }
 
   clicker = id => {
     const selected = this.state.fish.filter(fsh => fsh.id === id);
@@ -30,13 +44,17 @@ class App extends React.Component {
       selected[0].clicked = true;
     } else {
       this.resetScore();
+      this.state.fish.forEach((fish) => (
+        fish.clicked = false
+      ));
     }
+    this.randomizeCards();
   };
 
   render() {
     return (
       <Wrapper>
-        <h1 className="title">Fish Finder</h1>
+        <Title>{this.state.title}</Title>
         <div className="row">
           <div className="col-sm-6 mx-3 currScore">
             <h4 className="score">Current Score: {this.state.currCount}</h4>
