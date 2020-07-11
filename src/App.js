@@ -39,7 +39,7 @@ class App extends React.Component {
   }
 
   clicker = id => {
-    if(this.state.currCount != 16) {
+    if(this.state.currCount !== 16) {
     const selected = this.state.fish.filter(fsh => fsh.id === id);
     if(selected[0].clicked === false) {
       this.increaseScore();
