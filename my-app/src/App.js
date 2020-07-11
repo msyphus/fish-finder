@@ -14,7 +14,7 @@ class App extends React.Component {
   };
 
   increaseScore = () => {
-    if(this.state.currCount < 3) {
+    if(this.state.currCount < 2) {
       this.setState({ currCount: this.state.currCount + 1 })
     } else {
       this.endGame();
@@ -33,8 +33,9 @@ class App extends React.Component {
   }
 
   endGame = () => {
+    this.setState({ currCount: this.state.currCount + 1 })
     this.setState({ title: "Fish Catcher!"});
-    this.setState({ hiCount: this.state.currCount });
+    this.setState({ hiCount: 3 });
   }
 
   clicker = id => {
