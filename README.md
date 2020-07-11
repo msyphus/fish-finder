@@ -1,68 +1,22 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Fish Finder
 
-## Available Scripts
+### Demo
+This game can be played [here.](https://msyphus.github.io/fish-finder/)
 
-In the project directory, you can run:
+### General
+A simple memory game that passes the time and increases awareness of important vulnerable fish species.  Rockfish are a family of important commercial and game fish that are being overfished.  Several species are endangered or threatened.  They live deep so they often experience barotrauma when they are caught, which severely hinders the ability to safely release them.  They also have a long life span and slow maturity.  In short, these fish are hard-come-easy-go (they are slow to reproduce, but fast to be wiped out).  Several agencies invest a lot of money into conservation and awareness.  An important part of awareness is to educate the fishing community about species identification (and safe catch-and-release methods) so they can release the species that are most vulnerable.  This is difficult, however, since many rockfish species look alike.  This game helps improve the ability to recognize different species of rockfish.  A future version would display the species names when the fish cards are clicked.
 
-### `npm start`
+### How To Play
+To play the game, simply click on the fish pictures.  Upon click, the images will randomize.  Try to click each fish card only once.  If you click a card more than once, the game will reset.  If you successfully click all 16 cards, you win the game.  To replay, just click a card and the game will reset.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Technological Information
+This game was developed using the following technologies:
+* React.js
+* Node.js
+* CSS
+* Bootstrap
+* Google Fonts
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Built and deployed through the [Facebook create-react-app](https://github.com/facebook/create-react-app).
+Rockfish images are from [fishbase.org](https://www.fishbase.se/search.php).
+Background image is from [pexels.com](https://www.pexels.com/search/fish/).
