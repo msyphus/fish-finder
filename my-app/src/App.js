@@ -14,7 +14,7 @@ class App extends React.Component {
   };
 
   increaseScore = () => {
-    if(this.state.currCount < 2) {
+    if(this.state.currCount < 15) {
       this.setState({ currCount: this.state.currCount + 1 })
     } else {
       this.endGame();
@@ -34,11 +34,12 @@ class App extends React.Component {
 
   endGame = () => {
     this.setState({ currCount: this.state.currCount + 1 })
-    this.setState({ title: "Fish Catcher!"});
-    this.setState({ hiCount: 3 });
+    this.setState({ title: "Fish Catcher!" });
+    this.setState({ hiCount: 16 });
   }
 
   clicker = id => {
+    if(this.state.currCount != 16) {
     const selected = this.state.fish.filter(fsh => fsh.id === id);
     if(selected[0].clicked === false) {
       this.increaseScore();
@@ -49,6 +50,13 @@ class App extends React.Component {
         fish.clicked = false
       ));
     }
+  } else {
+      this.resetScore();
+      this.state.fish.forEach((fish) => (
+        fish.clicked = false
+      ));
+      this.setState({ title: "Fish Finder" });
+  }
     this.randomizeCards();
   };
 
