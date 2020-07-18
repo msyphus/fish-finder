@@ -3,96 +3,175 @@
         "id": 1,
         "species": "Black Rockfish",
         "image": "https://www.fishbase.se/images/species/Semel_u9.jpg",
+        "status": "good",
         "clicked": false
     },
     {
         "id": 2,
         "species": "Blue Rockfish",
         "image": "https://www.fishbase.se/images/species/Semys_u3.jpg",
+        "status": "good",
         "clicked": false
     },
     {
         "id": 3,
         "species": "Olive Rockfish",
         "image": "https://www.fishbase.se/images/species/Seser_u0.jpg",
+        "status": "unknown",
         "clicked": false
     },
     {
         "id": 4,
         "species": "Yellowtail Rockfish",
         "image": "https://www.fishbase.se/images/species/Sefla_u1.jpg",
+        "status": "good",
         "clicked": false
     },
     {
         "id": 5,
         "species": "Canary Rockfish",
         "image": "https://www.fishbase.se/images/species/Sepin_u2.jpg",
+        "status": "threatened",
         "clicked": false
     },
     {
         "id": 6,
         "species": "Vermillion Rockfish",
         "image": "https://www.fishbase.se/images/species/Semin_u0.jpg",
+        "status": "good",
         "clicked": false
     },
     {
         "id": 7,
         "species": "Copper Rockfish",
         "image": "https://www.fishbase.se/images/species/Secau_u5.jpg",
+        "status": "vulnerable",
         "clicked": false
     },
     {
         "id": 8,
         "species": "Tiger Rockfish",
         "image": "https://www.fishbase.se/images/species/senig_u4.jpg",
+        "status": "vulnerable",
         "clicked": false
     },
     {
         "id": 9,
         "species": "Flag Rockfish",
         "image": "https://www.fishbase.se/images/species/Serub_u1.jpg",
+        "status": "unknown",
         "clicked": false
     },
     {
         "id": 10,
         "species": "Gopher Rockfish",
         "image": "https://www.fishbase.se/images/species/Secar_u0.jpg",
+        "status": "unknown",
         "clicked": false
     },
     {
         "id": 11,
         "species": "China Rockfish",
         "image": "https://www.fishbase.se/images/species/Seneb_u0.jpg",
+        "status": "vulnerable",
         "clicked": false
     },
     {
         "id": 12,
         "species": "Black-and-Yellow Rockfish",
         "image": "https://www.fishbase.se/images/species/Sechr_u0.jpg",
+        "status": "good",
         "clicked": false
     },
     {
         "id": 13,
         "species": "Yelloweye Rockfish",
         "image": "https://www.fishbase.se/images/species/Serub_u0.jpg",
+        "status": "threatened",
         "clicked": false
     },
     {
         "id": 14,
         "species": "Quillback Rockfish",
         "image": "https://www.fishbase.se/images/species/Semal_u4.jpg",
+        "status": "good",
         "clicked": false
     },
     {
         "id": 15,
         "species": "Widow Rockfish",
         "image": "https://www.fishbase.se/images/species/Seent_u0.jpg",
+        "status": "vulnerable",
         "clicked": false
     },
     {
         "id": 16,
         "species": "Kelp Rockfish",
         "image": "http://www.fishbase.se/tools/UploadPhoto/uploads/kelprockfish.jpg",
+        "status": "unknown",
+        "clicked": false
+    },
+    {
+        "id": 17,
+        "species": "Bocaccio",
+        "image": "https://www.fishbase.se/images/species/Sepau_u0.jpg",
+        "status": "endangered",
+        "clicked": false
+    },
+    {
+        "id": 18,
+        "species": "Redbanded Rockfish",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Sebastes_babcocki.jpg/1280px-Sebastes_babcocki.jpg",
+        "status": "vulnerable",
+        "clicked": false
+    },
+    {
+        "id": 19,
+        "species": "Chilipepper Rockfish",
+        "image": "https://www.fishbase.se/images/species/Segoo_u0.jpg",
+        "status": "good",
+        "clicked": false
+    },
+    {
+        "id": 20,
+        "species": "Dusky Rockfish",
+        "image": "https://www.fishbase.se/images/species/Secil_u0.jpg",
+        "status": "unknown",
+        "clicked": false
+    },
+    {
+        "id": 21,
+        "species": "Cowcod",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Sebastes_levis.jpg",
+        "status": "vulnerable",
+        "clicked": false
+    },
+    {
+        "id": 22,
+        "species": "Greenspotted Rockfish",
+        "image": "https://www.fishbase.se/images/species/Sechl_u1.jpg",
+        "status": "unknown",
+        "clicked": false
+    },
+    {
+        "id": 23,
+        "species": "Starry Rockfish",
+        "image": "https://www.fishbase.se/images/species/Secon_u6.jpg",
+        "status": "unknown",
+        "clicked": false
+    },
+    {
+        "id": 24,
+        "species": "Darkblotched Rockfish",
+        "image": "https://oceanexplorer.noaa.gov/explorations/lewis_clark01/background/plan/media/darkblotchederockfish_600.jpg",
+        "status": "vulnerable",
+        "clicked": false
+    },
+    {
+        "id": 25,
+        "species": "Rougheye Rockfish",
+        "image": "https://cdn2.webdamdb.com/1280_25TaUpdFuhS1.png?1552941603",
+        "status": "vulnerable",
         "clicked": false
     }
 ]
