@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fish-finder/precache-manifest.649bcefef319754de486db8dd336f03c.js"
+  "/fish-finder/precache-manifest.f1813f2636b2e5566b954e84dc98dc5f.js"
 );
 
 self.addEventListener('message', (event) => {
